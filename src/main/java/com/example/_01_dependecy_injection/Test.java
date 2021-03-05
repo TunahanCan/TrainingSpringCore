@@ -7,10 +7,10 @@ public class Test {
     public static void main(String[] args) {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("_01_dependency_inject/spring_dia.xml");
-        PayServiceProvier provier = (PayServiceProvier) context.getBean("paymentProvider");
+        PayServiceProvider provier = (PayServiceProvider) context.getBean("paymentProvider");
         provier.performPayment();
 
-        PayServiceProvier bitServiceProvider = (PayServiceProvier) context.getBean("bitcoinPaymentProvider");
+        PayServiceProvider bitServiceProvider = (PayServiceProvider) context.getBean("bitcoinPaymentProvider");
         bitServiceProvider.performPayment();
 
 

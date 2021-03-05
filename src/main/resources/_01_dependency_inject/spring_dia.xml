@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="cashPayment" class="com.example._01_dependecy_injection.CashPayment"></bean>
-	<bean id="paymentProvider" class="com.example._01_dependecy_injection.PayServiceProvier">
+	<bean id="paymentProvider" class="com.example._01_dependecy_injection.PayServiceProvider">
 		<constructor-arg ref="cashPayment" ></constructor-arg>
 	</bean>
 
 
 	<bean id="bitcoinPayment" class="com.example._01_dependecy_injection.BitcoinPayment"></bean>
-	<bean id="bitcoinPaymentProvider" class="com.example._01_dependecy_injection.PayServiceProvier">
+	<bean id="bitcoinPaymentProvider" class="com.example._01_dependecy_injection.PayServiceProvider">
 		<property name="ipayment" ref="bitcoinPayment" ></property>
 	</bean>
 

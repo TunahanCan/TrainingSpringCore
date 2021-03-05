@@ -1,12 +1,12 @@
 package com.example._01_dependecy_injection;
 
-public class PayServiceProvier implements IPayService {
+public class PayServiceProvider implements IPayService {
 
     private IPayment ipayment;
 
-    PayServiceProvier(){};
+    PayServiceProvider(){};
 
-    PayServiceProvier(IPayment pay) {
+    PayServiceProvider(IPayment pay) {
         this.ipayment = pay;
     }
 
