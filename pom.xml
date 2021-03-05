@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
-	<artifactId>spring_learn</artifactId>
+	<artifactId>TrainingSpringCore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TrainingSpringCore</name>
 	<description>spring_learn_project</description>
@@ -13,6 +13,7 @@
 	</properties>
 
 	<dependencies>
+
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 		<dependency>
 			<groupId>org.springframework</groupId>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring_learn.iml" filepath="$PROJECT_DIR$/spring_learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrainingSpringCore.iml" filepath="$PROJECT_DIR$/TrainingSpringCore.iml" />
     </modules>
   </component>
 </project>
