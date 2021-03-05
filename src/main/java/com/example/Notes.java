@@ -5,8 +5,6 @@ package com.example;
 
 /**
  * 
- *  @author tnhncn
- * 
  *  I n v er s i o n o f Co n t r o l ( I o C)
  *
  */
