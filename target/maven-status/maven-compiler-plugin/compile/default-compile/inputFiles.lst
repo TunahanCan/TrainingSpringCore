@@ -1,0 +1,8 @@
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/_01_dependecy_injection/BitcoinPayment.java
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/_01_dependecy_injection/CashPayment.java
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/_01_dependecy_injection/CreditPayment.java
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/_01_dependecy_injection/IPayService.java
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/Notes.java
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/_01_dependecy_injection/Test.java
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/_01_dependecy_injection/IPayment.java
+/home/tnhncn/IdeaProjects/TrainingSpringCore/src/main/java/com/example/_01_dependecy_injection/PayServiceProvier.java
