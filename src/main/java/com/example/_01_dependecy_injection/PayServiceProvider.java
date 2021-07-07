@@ -1,7 +1,4 @@
 package com.example._01_dependecy_injection;
-
-
-
 import org.apache.log4j.Logger;
 
 public class PayServiceProvider implements IPayService {
@@ -10,7 +7,7 @@ public class PayServiceProvider implements IPayService {
 
     private IPayment ipayment;
 
-    PayServiceProvider(){};
+    PayServiceProvider(){ };
 
     PayServiceProvider(IPayment pay) {
         this.ipayment = pay;
@@ -20,7 +17,7 @@ public class PayServiceProvider implements IPayService {
     public void performPayment() {
         log.error("log attention");
         System.out.println("attention! payment transaction is being processed");
-        ipayment.executePaymet();
+        ipayment.executePayment();
     }
 
     public IPayment getIpayment() {
@@ -30,4 +27,7 @@ public class PayServiceProvider implements IPayService {
     public void setIpayment(IPayment ipayment) {
         this.ipayment = ipayment;
     }
+
+
+
 }
